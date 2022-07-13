@@ -1,0 +1,10 @@
+.image-style{
+    width: auto;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10vh;
+    left: auto;
+    right: auto;
+    z-index: 2;
+}
