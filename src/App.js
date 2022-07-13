@@ -7,6 +7,34 @@ function App() {
     <div className="App">
       <HeaderBackground/>
       <ProfileImage/>
+      <div className='panel-wrapper'>
+        <div className='panel'>
+          <label>
+            Personal Info
+          </label>
+          <hr/>
+          <label>
+            Skill-Set
+          </label>
+          <hr/>
+          <label>
+            Work Experience
+          </label>
+          <hr/>
+          <label>
+            Projects
+          </label>
+          <hr/>
+          <label>
+            {'Learnings & Educations'}
+          </label>
+          <hr/>
+          <label>
+            {'Achievements'}
+          </label>
+          <hr/>
+        </div>
+      </div>
     </div>
   );
 }
