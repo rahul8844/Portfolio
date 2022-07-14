@@ -3,6 +3,10 @@
     height: 25vh;
     text-align: left;
     background-image: linear-gradient(to right,#FFFFFF, #27034e);
+    display: flex;
+    max-height: 100px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .headings{
@@ -11,11 +15,29 @@
     height: inherit;
     flex-direction: column;
     justify-content: center;
-    margin-right: 5%;
+    margin-right: 2%;
+    width: 30vw;
+    color: #FFFFFF;
+}
+
+.profile-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 10px;
+    color: #27034e;
+    font-weight: 600;
+    background: #e8dcff;
+}
+
+.profile-logo label{
+    font-size: 30px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    padding: 2px 6px;
 }
 
 .text-style{
-    
     font-style: italic;
     font-size: 24px;
     font-family: math;
