@@ -1,9 +1,11 @@
 .image-style{
     width: auto;
-    height: 150px;
+    height: 80px;
     border-radius: 50%;
     position: absolute;
-    top: 5vh;
+    box-shadow: 3px 10px 40px #2e0076;
+    top: 1.5vh;
+    border: 2px solid #FFFFFF;
     left: auto;
     right: auto;
     z-index: 2;

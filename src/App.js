@@ -1,5 +1,6 @@
 import './App.css';
 import { HeaderBackground } from './components/HeaderBackground/HeaderBackground';
+import { PdfViewer } from './components/PDFFileViewer/PdfViewer';
 import { ProfileImage } from './components/ProfileImage/ProfileImage';
 
 const SIDE_PANEL_ITEMS =[
@@ -47,7 +48,9 @@ function App() {
             </>
           ))}
         </div>
+        <PdfViewer/>
       </div>
+          
     </div>
   );
 }

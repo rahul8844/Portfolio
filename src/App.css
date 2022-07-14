@@ -5,7 +5,8 @@
 
 .panel{
   display: flex;
-  padding: 10%;
+  padding: 30px;
+  width: 20%;
   flex-direction: column;
   align-items: flex-start;
   background-image: linear-gradient(to bottom, #27034e, #bdafcd);
@@ -19,9 +20,8 @@
 
 .panel-wrapper{
   display: flex;
-  justify-content: space-between;
   height: -webkit-fill-available;
-  width: 20%;
+  width: 100%;
 }
 
 .App-logo {
