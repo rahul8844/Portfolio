@@ -7,7 +7,7 @@ export const HeaderBackground = () =>{
         <div className="headerBackground">
             <div className="profile-logo">
                 <img src={ProfileLogo} alt={''} style={{height: '50px'}}/>
-                <label style={{marginLeft: "10px"}}>{'Rahul Gupta'}</label>
+                <label style={{paddingLeft: "7px"}}>{'Rahul Gupta'}</label>
             </div>
             <div className='headings'>
                 <text className='text-style'>{'Impossible is for the unwilling.'}</text>
